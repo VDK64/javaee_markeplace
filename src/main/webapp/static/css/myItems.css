@@ -1,0 +1,59 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #EFE1E1;
+    font-family: Lato;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .flex-item {
+    background: #F6F1F1;
+    padding: 5px;
+    width: 300px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: auto;
+  }
+  
+  .item-style {
+    margin-top: -15px;
+    word-wrap: break-word;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: -25px;
+    word-wrap: break-word;
+  }
+  
+  table {
+    width: 100%;
+    border-bottom: black;
+  }
+  
+  tr {
+    background-color: rgba(204, 230, 230, 0.582);
+  }
+  
+  .value {
+    text-align: right;
+    padding-right: 5px;
+  }
+  
+  .make-bidd {
+    margin-top: 30px;
+    text-align: center;
+  }
